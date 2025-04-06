@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    color: whitesmoke;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1.8rem;
+}
+
+.header_links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn_signup{
+    border: 0.2rem solid #24292e;
+    border-radius: 6px;
+    padding: 0.3rem 0.8rem
+}
+
+.login_container{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem 1.8rem;
+    align-content: center;
+}
+
+.login_container h1{
+    text-align: center;
+    
+}
+
+.login_socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.login_socials_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    color: whitesmoke;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+a{
+    color: whitesmoke;
+    font-weight: 300;
+}
+
+#github{
+    background-color: #24292e;
+}
+
+#gitlab{
+    background-color: #6b4fbb;
+}
+
+#bitbucket{
+    background-color: #0052cc;
+}
