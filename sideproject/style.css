@@ -96,14 +96,18 @@ a{
 
 .sign_up_cta{
     display: flex;
-    color: #2896ff;
-    width: 100%;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    position: relative;
     text-align: center;
-    border: 1px solid white;
-    padding: 2rem;
-    width: 110%;
+    color: #2896ff; /* Cor do texto */
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 100%;
 }
 
 hr{
