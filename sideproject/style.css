@@ -136,7 +136,7 @@ hr {
 }
 
 .triangle {
-    margin-left: 2.2rem;
+    margin-left: 2.5rem;
 }
 
 .footer_links ul {
@@ -209,6 +209,15 @@ hr {
     align-items: center;
     margin: 1rem;
 
+}
+
+.copywright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: #626262;
+    margin-bottom: 1rem;
 }
 
 .system_normal i {
